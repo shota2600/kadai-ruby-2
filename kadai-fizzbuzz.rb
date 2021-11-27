@@ -8,13 +8,13 @@
 # メソッドの定義
 def fizzbuzz(num)
  if num % 15 == 0
-  return 'FizzBuzz'  
+  return 'FizzBuzz'
  elsif num % 5 == 0
   return 'Buzz'
  elsif num % 3 == 0
   return 'Fizz'
  else
-  puts num
+  return num
  end
 end
 
