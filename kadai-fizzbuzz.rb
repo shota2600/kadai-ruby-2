@@ -7,20 +7,20 @@
 
 # メソッドの定義
 def fizzbuzz(num)
- num_max =100
  if num % 15 == 0
-  puts 'FizzBuzz'
+  return 'FizzBuzz'  
  elsif num % 5 == 0
-  puts 'Buzz'
+  return 'Buzz'
  elsif num % 3 == 0
-  puts 'Fizz'
+  return 'Fizz'
  else
-  puts num.to_s
+  puts num
  end
 end
 
 # メソッドの呼び出し
-(1..100).each do |num|
+num_max = 100
+(1..num_max).each do |num|
  puts fizzbuzz(num)
 end
  
